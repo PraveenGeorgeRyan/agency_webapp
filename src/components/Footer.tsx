@@ -53,11 +53,11 @@ const Footer = () => {
                         </div>
                         <p>Brampton, Ontario, Canada</p>
                     </div>
-                    <div className="flex flex-wrap items-center gap-4 mt-6">
+                    {/* <div className="flex flex-wrap items-center gap-4 mt-6">
                         <img className="w-[80px] shadow-lg" alt="Google Premiere Partner Badge" src="https://cdn.searchkings.ca/img/premier-google-partner-2025-82cba7b385.svg" />
                         <img className="w-[135px] shadow-lg" alt="Microsoft Badge" src="https://cdn.searchkings.ca/img/ms-elite-partner-badge-2025-0f6306e575.svg" />
                         <img className="w-[70px] shadow-lg" alt="Impact Awards Badge" src="https://cdn.searchkings.ca/img/ads-impact-awards-aa7ee6be8d.webp" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <small className="container px-4 sm:px-12 mx-auto block pt-8 text-left w-full text-xs">

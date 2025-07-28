@@ -6,7 +6,7 @@ const CompanySection = () => {
       <div className="container px-12 2xl:px-0 flex flex-col lg:items-center">
         <div className="mb-6 lg:mb-12">
           <h2 className="lg:text-center text-left">Great company, even greater people</h2>
-          <p className="lg:text-center text-left lg:w-[85%] mx-auto">With the help from a talented and diverse group of individuals, SearchKings builds profitable and measurable digital advertising campaigns for companies across North America and worldwide.</p>
+          <p className="lg:text-center text-left lg:w-[85%] mx-auto">With the help from a talented and diverse group of individuals, AdsOnline builds profitable and measurable digital advertising campaigns for companies across North America and worldwide.</p>
         </div>
         <div className="flex justify-center items-center w-full">
           <img 

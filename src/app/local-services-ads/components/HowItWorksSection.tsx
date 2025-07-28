@@ -3,8 +3,8 @@ import React from 'react';
 const HowItWorksSection = () => (
     <section className="py-16">
         <div className="container px-12 mx-auto">
-            <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-800">How it works</h2>
-            <p className="text-black lg:w-[95%] w-full mx-auto mb-8 font-light md:text-center text-left text-gray-600">When a customer books a Google-verified service provider, they know they're getting guaranteed services from a trustworthy and qualified business.</p>
+            <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-300">How it works</h2>
+            <p className="text-black lg:w-[95%] w-full mx-auto mb-8 font-light md:text-center text-left text-gray-200">When a customer books a Google-verified service provider, they know they're getting guaranteed services from a trustworthy and qualified business.</p>
             <div className="grid lg:grid-cols-2 rounded-3xl overflow-hidden">
                 <div className="h-full bg-[#32B355] flex justify-center items-end">
                     <img src="https://cdn.searchkings.ca/img/google-local-service/google-phone-f8600cd8db.webp" alt="Phone with Google Local Services" className="w-[300px]" />

@@ -9,25 +9,25 @@ const ServicesSection = () => {
             icon: 'https://cdn.searchkings.ca/img/home/ads-management-white-b092da1f16.svg',
             title: 'Ads Management',
             description: 'Show up where your customers are',
-            href: '/services/ads-management'
+            href: '/ad-management'
         },
         {
             icon: 'https://cdn.searchkings.ca/img/home/local-services-ads-white-dcdd346e7c.svg',
             title: 'Local Services Ads',
             description: 'Get verified and generate more leads',
-            href: '/services/local-services-ads'
+            href: '/local-services-ads'
         },
         {
             icon: 'https://cdn.searchkings.ca/img/home/web-services-white-a110031c74.svg',
             title: 'Web Services',
             description: 'Modern sites for lead generation',
-            href: '/services/web-services'
+            href: '/web-services'
         },
         {
             icon: 'https://cdn.searchkings.ca/img/home/call-intelligence-white-c0760fd428.svg',
             title: <>Call Intelligence<sup>™</sup></>,
             description: 'Score and summarize all calls',
-            href: '/services/call-intelligence'
+            href: '/call-intelligence'
         }
     ];
 
@@ -53,7 +53,7 @@ const ServicesSection = () => {
                                         <span className="text-white border-b-2 border-white pb-1 group-hover:text-red-500 group-hover:border-red-500 transition-all flex items-center pr-1 leading-none font-bold">
                                             Learn More
                                         </span>
-                                        <MaterialIcon className="text-white text-xl leading-none group-hover:text-red-500 transition-all">arrow_outward</MaterialIcon>
+                                        <img src="https://cdn.searchkings.ca/img/icons/arrow_outward-87ed9f5456.svg" width="24" height="24" alt="arrow_outward Icon" className="group-hover:invert"/>
                                     </div>
                                 </div>
                             </a>

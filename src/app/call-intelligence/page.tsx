@@ -14,9 +14,9 @@ export default function CallIntelligencePage() {
         <CallIntelligenceHero />
         <BetterDataSection />
         <BusinessInsightsSection />
-        <SeeHowItWorks />
-        <CustomerReviews />
-        <ContactSection />
+        {/* <SeeHowItWorks /> */}
+        {/* <CustomerReviews /> */}
+        {/* <ContactSection /> */}
       </main>
     </>
   )

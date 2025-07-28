@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TheStartOfSearchKings: React.FC = () => (
+const TheStartOfAdsOnline: React.FC = () => (
   <section className="py-16">
     <div className="container px-12 mx-auto lg:text-center text-left">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-300">The start of AdsOnline</h2>
@@ -10,4 +10,4 @@ const TheStartOfSearchKings: React.FC = () => (
   </section>
 );
 
-export default TheStartOfSearchKings;
+export default TheStartOfAdsOnline;

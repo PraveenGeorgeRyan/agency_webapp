@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactUsHero from './components/ContactUsHero';
 import GoogleAdsEvaluation from './components/GoogleAdsEvaluation';
-import WhyWorkWithSearchKings from './components/WhyWorkWithSearchKings';
+import WhyWorkWithAdsOnline from './components/WhyWorkWithAdsOnline';
 
 export default function ContactUsPage() {
   return (
@@ -10,7 +10,7 @@ export default function ContactUsPage() {
       <main>
         <ContactUsHero />
         <GoogleAdsEvaluation />
-        <WhyWorkWithSearchKings />
+        <WhyWorkWithAdsOnline />
       </main>
     </>
   );

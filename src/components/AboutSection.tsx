@@ -1,12 +1,20 @@
 // START:AboutSection
 // About Section
+"use client";
+import React from 'react';
+import Image from 'next/image';
 const AboutSection = () => (
     <section className="w-full bg-no-repeat xl:bg-hero-about xl:bg-contain bg-center px-4 sm:px-12 py-16">
         <div className="container mx-auto flex flex-col justify-center items-stretch rounded-3xl overflow-hidden shadow-2xl lg:flex-row bg-red-600">
-            <div 
-                className="block relative mx-0 bg-cover bg-center min-h-[300px] w-full lg:w-3/5 rounded-3xl" 
-                style={{backgroundImage: "url('https://cdn.searchkings.ca/img/sk-connect-44e589e844.webp')"}}
-            ></div>
+            <div className="block relative mx-0 min-h-[500px] w-full lg:w-3/5 rounded-3xl overflow-hidden">
+                <Image
+                    src="/home_about_image.png"
+                    alt="About AdsOnline"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 60vw"
+                />
+            </div>
             <div className="flex flex-col items-start justify-center text-left w-full lg:w-2/5 shrink-0">
                 <div className="p-8 md:p-12 text-white">
                     <h2 className="text-white text-3xl md:text-4xl font-bold mb-4 lg:mb-8">

@@ -5,7 +5,7 @@ const GettingStartedEasySection: React.FC = () => {
     {
       icon: "https://cdn.searchkings.ca/img/home/contact-us-d640acc1d7.webp",
       title: "Contact Us",
-      description: "At SearchKings, we specialize in managing digital campaigns. Our team of professionals is here to help."
+      description: "At AdsOnline, we specialize in managing digital campaigns. Our team of professionals is here to help."
     },
     {
       icon: "https://cdn.searchkings.ca/img/home/onboard-bb9a4c8d2a.webp",
@@ -32,8 +32,8 @@ const GettingStartedEasySection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 lg:mb-8 text-gray-800">Getting started <span className="lg:block">is easy</span></h2>
             <p className="mb-4 text-gray-600">We simplify lead generation so you can focus on growing your business.</p>
             <p className="mb-4 text-gray-600">This is why our digital marketing experts make every effort to ensure a smooth and simple onboarding experience and stellar results.</p>
-            <p className="mb-8 text-gray-600">Make the switch to SearchKings today.</p>
-            <a href="/contact/" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden bg-gradient-to-r from-red-600 to-red-500">
+            <p className="mb-8 text-gray-600">Make the switch to AdsOnline today.</p>
+            <a href="/contact-us" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden bg-gradient-to-r from-red-600 to-red-500">
               <div className="group md:text-lg text-base text-white font-bold h-full hover:from-black hover:to-black px-7 py-3 flex items-center gap-2">
                 <span className="tracking-tight">Get Started</span>
                 <img src="https://cdn.searchkings.ca/img/icons/arrow_outward-87ed9f5456.svg" width="24" height="24" alt="arrow_outward Icon" className="invert group-hover:invert relative" />

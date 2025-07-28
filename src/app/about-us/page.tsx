@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutUsHero from './components/AboutUsHero';
-import TheStartOfSearchKings from './components/TheStartOfSearchKings';
+import TheStartOfAdsOnline from './components/TheStartOfAdsOnline';
 import WhatMakesUsUnique from './components/WhatMakesUsUnique';
 import HelpingPartnersSection from './components/HelpingPartnersSection';
 import GreatCompanyGreaterPeople from './components/GreatCompanyGreaterPeople';
@@ -12,10 +12,10 @@ export default function AboutUsPage() {
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <main>
         <AboutUsHero />
-        <TheStartOfSearchKings />
+        {/* <TheStartOfAdsOnline /> */}
         <WhatMakesUsUnique />
-        <HelpingPartnersSection />
-        <GreatCompanyGreaterPeople />
+        {/* <HelpingPartnersSection /> */}
+        {/* <GreatCompanyGreaterPeople /> */}
         <GettingStartedEasySection />
       </main>
     </>

@@ -21,12 +21,12 @@ const JobPostings = () => {
     {
       id: 2,
       title: "Account Executive - Sales",
-      description: "SearchKings is hiring a full-time Account Executive for sales. We are looking for an outgoing, motivated sales enthusiast with a strong digital marketing background. Must be able to respond to inbound sales enquiries, educate potential customers on SearchKings' service offerings, and help coordinate on-boarding. Our sales environment tends to be very fast paced, exciting, and constantly changing.",
+      description: "AdsOnline is hiring a full-time Account Executive for sales. We are looking for an outgoing, motivated sales enthusiast with a strong digital marketing background. Must be able to respond to inbound sales enquiries, educate potential customers on AdsOnline's service offerings, and help coordinate on-boarding. Our sales environment tends to be very fast paced, exciting, and constantly changing.",
       requirements: [
         "Successfully close new business through relationship-based selling.",
-        "Master the ability to evangelize the SearchKings story.",
+        "Master the ability to evangelize the AdsOnline story.",
         "Achieve and exceed monthly and quarterly quotas/sales targets.",
-        "Align SearchKings solutions with prospect business objectives/needs.",
+        "Align AdsOnline solutions with prospect business objectives/needs.",
         "Successfully manage and overcome prospect objections.",
         "Collaborate effectively with the account team and others to drive new business.",
         "Proactively keep abreast of our industry and the technology landscape to ensure you are a trusted resource to prospects and customers."
@@ -46,7 +46,7 @@ const JobPostings = () => {
     {
       id: 3,
       title: "Google Advertising Account Manager - eCommerce",
-      description: "SearchKings is seeking a hard-working individual to join our team as an eCommerce Ads Account Manager.",
+      description: "AdsOnline is seeking a hard-working individual to join our team as an eCommerce Ads Account Manager.",
       requirements: [
         "Minimum 2 years of Google Ads account management experience.",
         "Applicant must be able build, manage, and optimize Google Ads accounts ensuring that all deliverables are presented on time and of a high quality.",
@@ -63,7 +63,7 @@ const JobPostings = () => {
     {
       id: 4,
       title: "Billing Specialist",
-      description: "SearchKings is hiring a full-time Billing Specialist. We are looking for an outgoing, motivated person who can assist with the billing of new and existing customers. Must be able to speak confidently on the phone with customers and troubleshoot when necessary. Our environment tends to be very fast-paced and requires the ability to multitask efficiently.",
+      description: "AdsOnline is hiring a full-time Billing Specialist. We are looking for an outgoing, motivated person who can assist with the billing of new and existing customers. Must be able to speak confidently on the phone with customers and troubleshoot when necessary. Our environment tends to be very fast-paced and requires the ability to multitask efficiently.",
       workOn: [
         "Create and update customer profiles in our internal management system",
         "Set up/process credit cards using our online billing/invoice platform",
@@ -89,7 +89,7 @@ const JobPostings = () => {
     {
       id: 5,
       title: "Digital Operations Associate",
-      description: "SearchKings is hiring a full-time Digital Operations Associate for our Operations Team. We are looking for a customer service focused individual who can assist with the onboarding/set up of new customers, and has the ability to understand & navigate website tracking. Our Operations Team environment tends to be very fast-paced, exciting, and constantly evolving.",
+      description: "AdsOnline is hiring a full-time Digital Operations Associate for our Operations Team. We are looking for a customer service focused individual who can assist with the onboarding/set up of new customers, and has the ability to understand & navigate website tracking. Our Operations Team environment tends to be very fast-paced, exciting, and constantly evolving.",
       profile: [
         "An efficient multi-tasker who thrives in a fast-paced environment",
         "A quick learner, analytical thinker, and effective problem solver",
@@ -135,12 +135,12 @@ const JobPostings = () => {
     {
       id: 2,
       title: "Account Executive - Sales",
-      description: "SearchKings is hiring a full-time Account Executive for sales. We are looking for an outgoing, motivated sales enthusiast with a strong digital marketing background. Must be able to respond to inbound sales enquiries, educate potential customers on SearchKings' service offerings, and help coordinate on-boarding. Our sales environment tends to be very fast paced, exciting, and constantly changing.",
+      description: "AdsOnline is hiring a full-time Account Executive for sales. We are looking for an outgoing, motivated sales enthusiast with a strong digital marketing background. Must be able to respond to inbound sales enquiries, educate potential customers on AdsOnline's service offerings, and help coordinate on-boarding. Our sales environment tends to be very fast paced, exciting, and constantly changing.",
       requirements: [
         "Successfully close new business through relationship-based selling.",
-        "Master the ability to evangelize the SearchKings story.",
+        "Master the ability to evangelize the AdsOnline story.",
         "Achieve and exceed monthly and quarterly quotas/sales targets.",
-        "Align SearchKings solutions with prospect business objectives/needs.",
+        "Align AdsOnline solutions with prospect business objectives/needs.",
         "Successfully manage and overcome prospect objections.",
         "Collaborate effectively with the account team and others to drive new business.",
         "Proactively keep abreast of our industry and the technology landscape to ensure you are a trusted resource to prospects and customers."
@@ -160,7 +160,7 @@ const JobPostings = () => {
     {
       id: 3,
       title: "Google Advertising Account Manager - eCommerce",
-      description: "SearchKings is seeking a hard-working individual to join our team as an eCommerce Ads Account Manager.",
+      description: "AdsOnline is seeking a hard-working individual to join our team as an eCommerce Ads Account Manager.",
       requirements: [
         "Minimum 2 years of Google Ads account management experience.",
         "Applicant must be able build, manage, and optimize Google Ads accounts ensuring that all deliverables are presented on time and of a high quality.",

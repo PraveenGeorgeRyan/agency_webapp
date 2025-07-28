@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <LearnMoreSection />
+      {/* <LearnMoreSection /> */}
       <ReviewsSection />
       <GettingStartedSection />
       <PartnersSection />

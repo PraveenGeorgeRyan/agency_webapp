@@ -16,13 +16,13 @@ const ContactSection = () => (
                 <div className="flex flex-col gap-8 w-full lg:w-1/2 justify-between">
                     <div className="flex flex-col gap-8 lg:w-3/4">
                         <h2 className="text-4xl lg:text-5xl font-bold leading-snug mb-0">Contact Us</h2>
-                        <p className="text-gray-600">Layer in Call Intelligence™ to your current advertising, or use it to help you achieve specific goals. Either way, our process to get started is simple.</p>
-                        <p className="text-gray-600">You are under no obligation to make a purchase and we keep your personal information private and confidential. <a href="/privacy-policy" className="underline">View our privacy policy.</a></p>
+                        <p className="text-gray-200">Layer in Call Intelligence™ to your current advertising, or use it to help you achieve specific goals. Either way, our process to get started is simple.</p>
+                        <p className="text-gray-200">You are under no obligation to make a purchase and we keep your personal information private and confidential. <a href="/privacy-policy" className="underline">View our privacy policy.</a></p>
                     </div>
                     <div className="font-bold bg-[#0075E3] rounded-3xl">
                         <div className="flex md:flex-row flex-col p-8 text-white justify-between md:items-center md:gap-2 gap-4">
                             <p className="text-2xl 2xl:text-3xl">Have a Google Ads account? <br/>Get a free evaluation.</p>
-                            <a href="/account-evaluation/" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden !mt-0 min-w-[169px]">
+                            <a href="/contact-us" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden !mt-0 min-w-[169px]">
                                 <div className="group md:text-lg text-base text-black font-bold bg-white h-full hover:text-white hover:bg-black px-7 py-3 flex items-center gap-2">
                                     <span className="tracking-tight">Get Started</span>
                                     <img src="https://cdn.searchkings.ca/img/icons/arrow_outward-87ed9f5456.svg" width="24" height="24" alt="arrow_outward Icon" className="group-hover:invert relative" />

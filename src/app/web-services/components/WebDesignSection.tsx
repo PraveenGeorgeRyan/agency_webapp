@@ -7,7 +7,7 @@ const WebDesignSection = () => (
                 <div className="flex lg:flex-row flex-col md:rounded-3xl rounded-xl text-white justify-center overflow-hidden">
                     <div className="w-full lg:w-1/2 xl:w-1/3 text-left flex flex-col justify-center sm:p-12 p-8 lg:pr-0 pr-8">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Website design &amp; development</h2>
-                        <p className="text-black w-full font-light text-gray-600 mt-4">SearchKings offers a variety of modern and user-friendly advertising microsite, WordPress, and Shopify advertising microsite templates that will resonate with your audience and help you maximize your online advertising potential.</p>
+                        <p className="text-black w-full font-light text-gray-600 mt-4">AdsOnline offers a variety of modern and user-friendly advertising microsite, WordPress, and Shopify advertising microsite templates that will resonate with your audience and help you maximize your online advertising potential.</p>
                     </div>
                     <div className="w-full lg:w-1/2 xl:w-2/3 flex gap-8 sm:justify-center justify-start px-8 sm:pb-0 pb-8 lg:pt-8 pt-0">
                         <div className="flex flex-col justify-center items-center">

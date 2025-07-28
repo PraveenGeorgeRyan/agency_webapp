@@ -16,7 +16,7 @@ const CustomerReviews = () => {
     const reviews = [
         {
             image: "https://cdn.searchkings.ca/img/call-intelligence/allied-comfort-32a6aaaf18.webp",
-            quote: "We have been working with SearchKings for multiple years and this year we implemented Call Intelligence™ at the recommendation of our Account Executive, Nate Sri. With this implemented, Nate has provided us suggested changes which have increased our rate of return on GLS calls. SearchKings is a great company to work with and I would highly recommend their services!",
+            quote: "We have been working with AdsOnline for multiple years and this year we implemented Call Intelligence™ at the recommendation of our Account Executive, Nate Sri. With this implemented, Nate has provided us suggested changes which have increased our rate of return on GLS calls. AdsOnline is a great company to work with and I would highly recommend their services!",
             name: "Kristen Berg",
             company: "Allied Comfort Pro, LLC"
         },
@@ -33,8 +33,8 @@ const CustomerReviews = () => {
     return (
         <section className="py-16">
             <div className="container px-12 mx-auto">
-                <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-800">What our customers have to say</h2>
-                <p className="lg:w-[85%] w-full mx-auto mb-8 font-light md:text-center text-gray-600">What our customers have to say about their experience with SearchKings and Call Intelligence™</p>
+                <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-300">What our customers have to say</h2>
+                <p className="lg:w-[85%] w-full mx-auto mb-8 font-light md:text-center text-gray-200">What our customers have to say about their experience with AdsOnline and Call Intelligence™</p>
             </div>
             <div className="container mx-auto">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center px-12">
@@ -45,7 +45,7 @@ const CustomerReviews = () => {
                          <div className="flex text-yellow-500">
                                 {[...Array(5)].map((_, i) => <MaterialIcon key={i}>star</MaterialIcon>)}
                          </div>
-                        <div className="text-base lg:text-xl text-gray-600">{reviews[activeIndex].quote}</div>
+                        <div className="text-base lg:text-xl text-gray-200">{reviews[activeIndex].quote}</div>
                         <div>
                             <p className="font-bold text-lg">{reviews[activeIndex].name}</p>
                             <p className="text-base text-gray-500">{reviews[activeIndex].company}</p>

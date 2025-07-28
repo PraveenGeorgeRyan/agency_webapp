@@ -42,7 +42,7 @@ const Footer = () => {
                      <div className="pt-4 hidden lg:block">
                         <p className="text-base font-bold text-gray-800 pb-2">Download our App</p>
                         <div className="flex gap-2">
-                            <img src="https://cdn.searchkings.ca/img/footer/app-logo-f8a74c2503.svg" width="65" height="65" alt="SearchKings App Logo" />
+                            <img src="https://cdn.searchkings.ca/img/footer/app-logo-f8a74c2503.svg" width="65" height="65" alt="AdsOnline App Logo" />
                             <div className="flex flex-col gap-1 items-center justify-center">
                                 <a href="https://apps.apple.com/ca/app/searchkings/id6502098946" target="_blank"><img src="https://cdn.searchkings.ca/img/footer/app-ios-6b6ad68583.svg" width="92" height="92" alt="iOS App"/></a>
                                 <a href="https://play.google.com/store/search?q=Searchkings&c=apps&hl=en" target="_blank"><img src="https://cdn.searchkings.ca/img/footer/app-android-8cbe1e3d22.svg" width="92" height="92" alt="Android App"/></a>
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
             <small className="container px-4 sm:px-12 mx-auto block pt-8 text-left w-full text-xs">
-                © SearchKings 2025 | <a href="/terms-conditions" className="underline">Terms & Conditions</a> | <a href="/privacy-policy" className="underline">Privacy Policy</a> | <a href="https://support.google.com/adspolicy/answer/94230?hl=en" target="_blank" className="underline">Working With 3rd Parties</a> | <a href="/accessibility-plans" className="underline">Accessibility Plan</a>
+                © AdsOnline 2025 | <a href="/terms-conditions" className="underline">Terms & Conditions</a> | <a href="/privacy-policy" className="underline">Privacy Policy</a> | <a href="https://support.google.com/adspolicy/answer/94230?hl=en" target="_blank" className="underline">Working With 3rd Parties</a> | <a href="/accessibility-plans" className="underline">Accessibility Plan</a>
             </small>
         </footer>
     );

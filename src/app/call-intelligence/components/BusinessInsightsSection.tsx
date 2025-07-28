@@ -46,8 +46,8 @@ const BusinessInsightsSection = () => {
     return (
         <section className="py-16">
             <div className="container px-12 mx-auto">
-                <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-800">Powerful Business Insights</h2>
-                <p className="lg:w-[85%] w-full mx-auto mb-8 font-light md:text-center text-gray-600">Our SearchKings app lets you see your Call Intelligence™ data and how you're doing at any time, from anywhere.</p>
+                <h2 className="md:text-center text-3xl md:text-4xl font-bold text-gray-300">Powerful Business Insights</h2>
+                <p className="lg:w-[85%] w-full mx-auto mb-8 font-light md:text-center text-gray-200">Our AdsOnline app lets you see your Call Intelligence™ data and how you're doing at any time, from anywhere.</p>
             </div>
             <div className="flex flex-col container justify-center px-12 lg:gap-8 lg:flex-row mx-auto">
                 <div className="flex justify-end w-full lg:w-1/4">

@@ -62,7 +62,7 @@ const HeroSection = () => {
                         <img src="https://cdn.searchkings.ca/img/home/google-awards-7ec79bc37f.webp" className="w-[60px] lg:w-auto" alt="Google Awards" width="94" height="328" />
                         <div>
                             <h2 className="text-xl md:text-2xl lg:text-3xl mb-4 font-bold text-gray-800">2025 Google Ads <br />Ai Excellence Award&nbsp;Winner</h2>
-                            <p className="leading-relaxed sm:text-lg font-light text-gray-600">SearchKings wins the Google Ads Impact Award for using Ai to deliver better results for our customers.</p>
+                            <p className="leading-relaxed sm:text-lg font-light text-gray-600">AdsOnline wins the Google Ads Impact Award for using Ai to deliver better results for our customers.</p>
                             <a className="leading-snug text-sm sm:text-base mt-4 block group text-gray-800 font-medium" href="#">
                                 <span className="border-black pb-1 group-hover:border-b transition-all">Learn more about our award-winning Call Intelligence™</span>
                                 <MaterialIcon className="text-sm sm:text-lg leading-none align-middle">arrow_outward</MaterialIcon>

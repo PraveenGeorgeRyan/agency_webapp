@@ -7,7 +7,7 @@ const AchievementsList = () => {
             bgColor: "bg-[#2fa84f]",
             imgSrc: "https://cdn.searchkings.ca/img/achievements/google-ads-impact-awards-1e4a826ef7.webp",
             title: "2025 Google Ads Impact Award Winner",
-            description: "SearchKings is proud to be the winner of the 2025 Google Ads Impact Award for AI Excellence Award - Breakthrough Agency for using Ai to deliver better results for customers.",
+            description: "AdsOnline is proud to be the winner of the 2025 Google Ads Impact Award for AI Excellence Award - Breakthrough Agency for using Ai to deliver better results for customers.",
             link: "https://www.prnewswire.com/news-releases/searchkings-named-2025-google-ads-ai-excellence-award-winner-302489227.html?tc=eml_cleartime",
             linkText: "Read the press release"
         },
@@ -31,7 +31,7 @@ const AchievementsList = () => {
             cardType: 'background' as const,
             bgImage: "https://cdn.searchkings.ca/img/achievements/satisfaction-bg-081b832a89.webp",
             title: "Google Customer Satisfaction Award",
-            description: "SearchKings is proud to be the winner of the Google Premier Partner Customer Satisfaction Award."
+            description: "AdsOnline is proud to be the winner of the Google Premier Partner Customer Satisfaction Award."
         },
         {
             bgColor: "bg-[#243a5e]",

@@ -48,7 +48,7 @@ const BetterDataSection = () => {
                 <div className="pt-8">
                     <div className="grid lg:grid-cols-2 gap-8 items-center">
                         <div className="flex flex-col gap-4 justify-center">
-                            <h3 className="text-2xl md:text-3xl font-bold leading-tight">{tabContents[activeTab].title}</h3>
+                            <h3 className="text-2xl md:text-3xl font-bold leading-tight text-gray-800">{tabContents[activeTab].title}</h3>
                             <p className="font-normal text-gray-600">{tabContents[activeTab].description}</p>
                         </div>
                         <div className="text-center">

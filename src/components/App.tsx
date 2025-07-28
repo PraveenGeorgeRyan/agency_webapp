@@ -1,3 +1,13 @@
+import Header from './Header';
+import HeroSection from './HeroSection';
+import AboutSection from './AboutSection';
+import ServicesSection from './ServicesSection';
+import LearnMoreSection from './LearnMoreSection';
+import ReviewsSection from './ReviewsSection';
+import GettingStartedSection from './GettingStartedSection';
+import PartnersSection from './PartnersSection';
+import Footer from './Footer';
+
 // START:App
 export default function App() {
   return (

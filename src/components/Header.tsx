@@ -3,29 +3,31 @@
 "use client";
 import React from 'react';
 import Icon from './Icon';
+import Image from 'next/image'; // Ensure you have the correct import for Image
 const Header = () => {
   const [openDropdown, setOpenDropdown] = React.useState<string | null>(null);
+  const [closeTimeout, setCloseTimeout] = React.useState<NodeJS.Timeout | null>(null);
 
   const navItems = [
     {
       name: 'About Us',
       href: '#',
       dropdown: [
-        { name: 'Achievements', href: '#' },
-        { name: 'Testimonials', href: '#' },
-        { name: 'Join Our Team', href: '#' },
-        { name: 'About Us', href: '#' },
+        // { name: 'Achievements', href: '/achievements' },
+        // { name: 'Testimonials', href: '#' },
+        // { name: 'Join Our Team', href: '/join-our-team' },
+        { name: 'About Us', href: '/about-us' },
       ],
     },
     {
       name: 'Services',
       href: '#',
       dropdown: [
-        { name: 'Ads Management', href: '/ads-management/' },
-        { name: 'Call Intelligence®', href: '/call-intelligence/' },
-        { name: 'Local Services Ads', href: '/local-services-ads/' },
-        { name: 'eCommerce', href: '/ecommerce/' },
-        { name: 'Video Marketing', href: '/video-marketing/' },
+        { name: 'Ads Management', href: '/ad-management' },
+        { name: 'Call Intelligence®', href: '/call-intelligence' },
+        { name: 'Local Services Ads', href: '/local-services-ads' },
+        { name: 'eCommerce', href: '/e-commerce' },
+        { name: 'Video Marketing', href: '/video-marketing' },
         { name: 'Web Services', href: '/web-services/' },
       ],
     },
@@ -33,12 +35,12 @@ const Header = () => {
       name: 'Solutions',
       href: '#',
       dropdown: [
-        { name: 'Partners & Franchises', href: '#' },
-        { name: 'Web Hosting & Maintenance', href: '#' },
+        { name: 'Partners & Franchises', href: '/partners-franchises' },
+        { name: 'Web Hosting & Maintenance', href: '/web-hosting-maintenance' },
       ],
     },
-    { name: 'Case Studies', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    // { name: 'Case Studies', href: '#' },
+    { name: 'Contact Us', href: '/contact-us' },
   ];
 
   interface DropdownItem {
@@ -53,11 +55,18 @@ const Header = () => {
   }
 
   const handleMouseEnter = (itemName: string) => {
+    if (closeTimeout) {
+      clearTimeout(closeTimeout);
+      setCloseTimeout(null);
+    }
     setOpenDropdown(itemName);
   };
 
   const handleMouseLeave = () => {
-    setOpenDropdown(null);
+    const timeout = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
+    setCloseTimeout(timeout);
   };
 
   return (
@@ -65,7 +74,15 @@ const Header = () => {
       <div className="container mx-auto bg-white rounded-xl shadow-lg flex justify-between items-center p-3">
         {/* Left: Logo */}
         <div className="flex-shrink-0">
-          <img src="https://cdn.searchkings.ca/img/sk-logo-58a2d4c9c7.svg" alt="SearchKings Logo" className="h-8" />
+          <a href="/" className="block">
+            <Image
+              src="/logo.png"
+              alt="AdsOnline Logo"
+              width={160}
+              height={80}
+              className="object-cover"
+            />
+          </a>
         </div>
 
         {/* Center: Navigation */}
@@ -84,7 +101,11 @@ const Header = () => {
                 )}
               </a>
               {item.dropdown && openDropdown === item.name && (
-                <div className="absolute top-full mt-4 w-56 bg-white rounded-lg shadow-xl py-2">
+                <div 
+                  className="absolute top-full w-56 bg-white rounded-lg shadow-xl py-2 z-50"
+                  onMouseEnter={() => handleMouseEnter(item.name)}
+                  onMouseLeave={handleMouseLeave}
+                >
                   {item.dropdown.map((subItem) => (
                     <a
                       key={subItem.name}

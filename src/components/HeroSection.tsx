@@ -57,34 +57,26 @@ const HeroSection = () => {
 
             {/* Hero Bottom */}
             <div className="py-8 md:py-12 px-4 sm:px-12 lg:px-16">
-                <div className="container mx-auto relative z-10 justify-center items-stretch flex flex-col lg:flex-row bg-gray-50 rounded-2xl p-4 md:p-8">
-                    <div className="lg:w-1/2 px-4 lg:pl-8 py-4 flex items-center gap-6 md:gap-12">
-                        <img src="https://cdn.searchkings.ca/img/home/google-awards-7ec79bc37f.webp" className="w-[60px] lg:w-auto" alt="Google Awards" width="94" height="328" />
-                        <div>
-                            <h2 className="text-xl md:text-2xl lg:text-3xl mb-4 font-bold text-gray-800">2025 Google Ads <br />Ai Excellence Award&nbsp;Winner</h2>
-                            <p className="leading-relaxed sm:text-lg font-light text-gray-600">AdsOnline wins the Google Ads Impact Award for using Ai to deliver better results for our customers.</p>
-                            <a className="leading-snug text-sm sm:text-base mt-4 block group text-gray-800 font-medium" href="#">
-                                <span className="border-black pb-1 group-hover:border-b transition-all">Learn more about our award-winning Call Intelligence™</span>
-                                <MaterialIcon className="text-sm sm:text-lg leading-none align-middle">arrow_outward</MaterialIcon>
-                            </a>
-                        </div>
+                <div className="container mx-auto relative z-10 justify-center items-stretch flex flex-col bg-gray-50 rounded-2xl p-4 md:p-8">
+                    <div className="text-center mb-8">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 font-bold text-gray-800">Why Choose AdsOnline?</h2>
+                        <p className="text-lg font-light text-gray-600 max-w-3xl mx-auto">We're committed to delivering transparent, flexible, and results-driven digital marketing solutions tailored to your business needs.</p>
                     </div>
-                    <div className="flex-col justify-center lg:w-1/2 xl:rounded-3xl flex bg-white/60 p-4 rounded-xl mt-6 lg:mt-0">
-                        <div className="flex flex-wrap">
-                            {features.map(feature => (
-                                <div key={feature.title} className="w-1/2 p-2 md:p-4 lg:p-6 flex gap-3 items-start flex-col">
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {features.map(feature => (
+                            <div key={feature.title} className="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <div className="flex justify-center mb-4">
                                     <img 
                                         src="/images/star.png" 
                                         alt={feature.title} 
-                                        className="w-10 h-10 text-red-600"
+                                        className="w-12 h-12"
                                     />
-                                    <div>
-                                        <p className="text-base md:text-lg lg:text-xl font-bold text-gray-800">{feature.title}</p>
-                                        <p className="text-xs sm:text-base font-light text-gray-600">{feature.description}</p>
-                                    </div>
                                 </div>
-                            ))}
-                        </div>
+                                <h3 className="text-xl font-bold text-gray-800 mb-2">{feature.title}</h3>
+                                <p className="text-gray-600 font-light">{feature.description}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

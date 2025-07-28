@@ -5,7 +5,7 @@ const GoogleAdsEvaluation: React.FC = () => (
     <div className="container mx-auto px-12">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="relative h-[300px] md:h-[500px] w-full">
-          <iframe className="absolute inset-0 w-full h-full rounded-3xl" frameBorder={0} title="map" marginHeight={0} marginWidth={0} scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=(AdsOnline)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+          <iframe className="absolute inset-0 w-full h-full rounded-3xl" frameBorder={0} title="map" marginHeight={0} marginWidth={0} scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Brampton,+Ontario,+Canada&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
         </div>
         <div className="bg-[#0075E3] rounded-3xl p-8 text-white">
           <h2 className="text-3xl md:text-4xl font-bold">Have a Google Ads account? <br/>Get a free evaluation.</h2>

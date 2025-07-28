@@ -12,7 +12,7 @@ const CallIntelligenceHero = () => (
                             <img src="https://cdn.searchkings.ca/img/icons/arrow_outward-87ed9f5456.svg" width="24" height="24" alt="arrow_outward Icon" className="invert group-hover:invert relative" />
                         </div>
                     </a>
-                    <a href="tel:1 (888) 335-4647" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden border-2 border-black mb-4 sm:mb-0">
+                    <a href="tel:+1-437-432-674" className="shrink-0 w-max block mt-4 no-underline shadow-xl rounded-full overflow-hidden border-2 border-black mb-4 sm:mb-0">
                         <div className="group md:text-lg text-base text-black font-bold bg-white h-full hover:text-white hover:bg-black px-7 py-3 flex items-center gap-2">
                             <img src="https://cdn.searchkings.ca/img/icons/call-50d0164ee7.svg" width="24" height="24" alt="call Icon" className="group-hover:invert relative" />
                             <span className="tracking-tight">Call Us</span>

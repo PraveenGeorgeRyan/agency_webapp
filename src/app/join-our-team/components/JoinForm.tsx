@@ -42,7 +42,7 @@ const JoinForm = () => {
                     name="email" 
                     id="email" 
                     data-pristine-required="" 
-                    placeholder="yourmail@gmail.com" 
+                    placeholder="najdigital1@gmail.com" 
                     autoComplete="email" 
                   />
                 </div>

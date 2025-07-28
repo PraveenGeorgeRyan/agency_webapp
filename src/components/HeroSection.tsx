@@ -38,7 +38,7 @@ const HeroSection = () => {
                             </span>
                         </div>
                         <div className="flex flex-wrap gap-4 lg:justify-center mt-6">
-                            <a href="tel:1 (888) 335-4647" className="shrink-0 w-max block no-underline shadow-xl rounded-full overflow-hidden">
+                            <a href="tel:+1-437-432-674" className="shrink-0 w-max block no-underline shadow-xl rounded-full overflow-hidden">
                                 <div className="group md:text-lg text-base text-white font-bold bg-gradient-to-r from-red-600 to-red-500 h-full hover:from-black hover:to-black px-7 py-3 flex items-center gap-2 transition-all duration-300">
                                     <img src="https://cdn.searchkings.ca/img/icons/call-50d0164ee7.svg" width="24" height="24" alt="call Icon" className="invert group-hover:invert" />
                                     <span className="tracking-tight">Call Us</span>

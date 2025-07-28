@@ -128,7 +128,7 @@ const Header = () => {
           </button>
           <button className="bg-red-600 text-white font-semibold py-3 px-5 rounded-lg text-sm flex items-center">
              <img src="https://cdn.searchkings.ca/img/icons/call-50d0164ee7.svg" width="24" height="24" alt="call Icon" className="invert group-hover:invert" />
-            1 (888) 335-4647
+            +1 (437) 432-674
           </button>
         </div>
          <button className="lg:hidden">
